@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+}
+
+.logo{
+    width: 15%;
+    /* background-color: red; */
+}
+
+.fb{
+    height: 60px;
+    width: 60px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url('./assets/fb.png');
+    background-size: cover;
+
+}
+
+.fb1{
+    display: none;
+}
+
+.logo p{
+    position: relative;
+    left: 50px;
+    top: 250px;
+    font-size: 64px;
+}
+
+.image{
+    width: 40%;
+    /* background-color: blue; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.image img{
+    height: 600px;
+    margin-top: 40px;
+}
+
+.credentials{
+    border-left: 2px rgba(134, 126, 126,0.3) solid;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    /* background-color: red; */
+}
+
+.credentials buttons,p{
+    align-self: center;
+}
+
+
+
+.creds{
+    outline-color: rgb(127, 127, 241);
+    box-sizing: border-box;
+    width: 560px;
+    height: 55px;
+    border-radius: 15px;
+    border: 1px solid rgba(59, 58, 58,0.4);
+    padding: 10px;
+    align-self: center;
+    margin-bottom: 5px;
+    /* margin-left: 400px; */
+}
+
+.btn1{
+    cursor: pointer;
+    width: 560px;
+    height: 40px;
+    align-self: center;
+    border-radius: 25px;
+    background-color: rgb(0,95,213);
+    color: white;
+    margin-top: 15px;
+    border: 0px;
+    /* font-size: px; */
+    font-weight: 500;
+    
+}
+
+.btn2{
+    cursor: pointer;
+    width: 560px;
+    height: 40px;
+    align-self: center;
+    border-radius: 25px;
+    /* background-color: blue; */
+    /* color: white; */
+    margin-top: 10px;
+    border: 0px;
+    /* font-size: px; */
+    font-weight: 500;
+    
+}
+
+.btn3{
+    cursor: pointer;
+    /* margin-top: 60px; */
+    width: 560px;
+    height: 40px;
+    align-self: center;
+    border-radius: 25px;
+    /* background-color: blue; */
+    color: rgb(0,95,213);
+    margin-top: 15px;
+    border: 1px solid rgb(0,95,213);
+    /* font-size: px; */
+    font-weight: 500;
+    
+}
+
+p{
+    margin-top: 10px;
+}
+
+@media (max-width:1250px) and (min-width:750px){
+    
+
+.fb1{
+    align-self: center;
+    display: block;
+    position: absolute;
+    top: 15px;
+
+}
+
+
+    .credentials{
+    border-left: none;
+    }
+    .image{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+
+    .main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media (max-width:750px){
+
+    .fb1{
+    align-self: center;
+    display: block;
+    position: absolute;
+    top: 15px;
+
+}
+
+
+    .credentials{
+    border-left: none;
+    }
+    .image{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+
+    .main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+
+.credentials buttons,p{
+    align-self: center;
+}
+
+
+
+.creds{
+    width: 360px;
+    height: 35px;
+}
+
+.btn1{
+    
+    width: 360px;
+    height: 25px;
+    
+    margin-top: 10px;
+   
+    
+}
+
+.btn2{
+    cursor: pointer;
+    width: 360px;
+    height: 25px;
+   
+    margin-top: 8px;
+    
+}
+
+.btn3{
+    width: 360px;
+    height: 25px;
+    margin-top: 10px;
+    
+    
+}
+
+p{
+    margin-top: 8px;
+}
+
+}
